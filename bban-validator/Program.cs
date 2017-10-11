@@ -7,8 +7,7 @@ namespace bban_validator
     {
         static void Main(string[] args)
         {
-            TestUtility.PrintGreetings();
-            Console.WriteLine();
+            TestUtility.Validator();
             Console.ReadKey();
         }
     }
