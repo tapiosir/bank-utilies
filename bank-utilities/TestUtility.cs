@@ -20,7 +20,7 @@ namespace  Ekoodi.Utilities.Test
             int decider = int.Parse(bban[0].ToString());
             int luhnCheckSum = 0;
           
-
+            
 
             if (decider == 4)
             {
@@ -73,11 +73,9 @@ namespace  Ekoodi.Utilities.Test
             {
                 Console.WriteLine("account number was incorrect");
             }
-
-           
+  
             Console.ReadKey();
         }
-
 
     }
 
